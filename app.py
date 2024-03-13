@@ -40,8 +40,8 @@ if uploaded_file is not None:
 submit = st.button("Tell me about the invoice")
 
 system_prompt ='''
-You are an expert at understanding invoices. You will recieve input images
-as invoices and you will have to answer questions based on this invoice.
+You are expert at understanding invoices. You will recieve input images
+as invoices and will have to answer questions based on this invoice.
 '''
 
 if submit:
